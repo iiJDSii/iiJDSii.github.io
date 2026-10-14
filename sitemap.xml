@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.schuback.tech/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.schuback.tech/blog/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.schuback.tech/blog/evaluating-safety-boundaries-for-llm-controlled-robotic-systems/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.schuback.tech/blog/from-pixels-to-physical-actions/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+  <url>
+    <loc>https://www.schuback.tech/blog/ai-productivity-needs-a-verification-loop/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+</urlset>

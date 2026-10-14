@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss version="2.0">
+  <channel>
+    <title>Schuback.Tech Blog</title>
+    <link>https://www.schuback.tech/blog/</link>
+    <description>Robotics, embodied AI, practical AI safety, and useful AI workflows by James Schuback.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 Oct 2026 12:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Evaluating Safety Boundaries for LLM-Controlled Robotic Systems</title>
+      <link>https://www.schuback.tech/blog/evaluating-safety-boundaries-for-llm-controlled-robotic-systems/</link>
+      <guid>https://www.schuback.tech/blog/evaluating-safety-boundaries-for-llm-controlled-robotic-systems/</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <description>A practical framework for evaluating task proposals, action authority, state freshness, containment, and recovery in language-controlled robot systems.</description>
+    </item>
+    <item>
+      <title>From Pixels to Physical Actions: The Interfaces That Make Embodied AI Work</title>
+      <link>https://www.schuback.tech/blog/from-pixels-to-physical-actions/</link>
+      <guid>https://www.schuback.tech/blog/from-pixels-to-physical-actions/</guid>
+      <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+      <description>What a plywood repair task reveals about calibration, uncertainty, perception, and the interfaces that connect a useful model to a dependable physical system.</description>
+    </item>
+    <item>
+      <title>AI Productivity Needs a Verification Loop</title>
+      <link>https://www.schuback.tech/blog/ai-productivity-needs-a-verification-loop/</link>
+      <guid>https://www.schuback.tech/blog/ai-productivity-needs-a-verification-loop/</guid>
+      <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
+      <description>A source-backed look at AI productivity, with a worked engineering research workflow and a concrete way to account for verification, rework, and controlled release.</description>
+    </item>
+  </channel>
+</rss>

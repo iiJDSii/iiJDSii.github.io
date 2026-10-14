@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Separate intent from authority</title>
+  <desc id="desc">An LLM proposes a task. A validation gate rejects invalid, stale, or out-of-bounds proposals before a bounded executor can command a robot. Observations and timestamps feed back into validation. An independent safety controller can override or stop the robot without passing through the language model. This is a conceptual architecture, not a safety certification.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#a9b9a4"/></marker>
+    <marker id="stop" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#e7a17d"/></marker>
+  </defs>
+  <rect width="1200" height="650" rx="20" fill="#182c29"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="56" y="51" fill="#a9b9a4" font-size="14" letter-spacing="3">ROBOTICS / SAFETY BOUNDARIES</text>
+    <text x="56" y="107" fill="#f7f5f0" font-size="44" font-weight="700">Separate intent from authority</text>
+    <text x="56" y="145" fill="#a9b9a4" font-size="21">A proposal becomes an action only after independent checks.</text>
+    <g fill="#a9b9a4" font-size="13" letter-spacing="1.6">
+      <text x="56" y="201">PROPOSE</text><text x="327" y="201">AUTHORIZE</text><text x="622" y="201">EXECUTE</text><text x="902" y="201">OBSERVE</text>
+    </g>
+    <g fill="#213a34" stroke="#587266" stroke-width="1.5">
+      <rect x="56" y="222" width="225" height="148" rx="12"/>
+      <rect x="327" y="222" width="249" height="148" rx="12" fill="#30463c" stroke="#a9b9a4"/>
+      <rect x="622" y="222" width="234" height="148" rx="12"/>
+      <rect x="902" y="222" width="242" height="148" rx="12"/>
+    </g>
+    <g fill="#f7f5f0" font-size="24" font-weight="700">
+      <text x="78" y="265">LLM proposal</text><text x="349" y="265">Validation gate</text><text x="644" y="265" font-size="22">Bounded executor</text><text x="924" y="265">Robot / action</text>
+    </g>
+    <g fill="#c8d2c3" font-size="18">
+      <text x="78" y="304">Intent, parameters,</text><text x="78" y="332">candidate tool call</text>
+      <text x="349" y="304">Valid? Fresh? In bounds?</text><text x="349" y="332">Accept or reject</text>
+      <text x="644" y="304">Allowlisted skills</text><text x="644" y="332">Limited authority</text>
+      <text x="924" y="304">Physical effect</text><text x="924" y="332">Measured state</text>
+    </g>
+    <g fill="none" stroke="#a9b9a4" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M285 296H318"/><path d="M580 296H613"/><path d="M860 296H893"/>
+      <path d="M980 371V413H452V376" stroke-dasharray="7 6"/>
+    </g>
+    <text x="538" y="443" fill="#a9b9a4" font-size="18">Observations + timestamps</text>
+    <rect x="56" y="484" width="450" height="96" rx="12" fill="#3d3e32" stroke="#e7a17d" stroke-width="1.5"/>
+    <text x="78" y="523" fill="#f7f5f0" font-size="24" font-weight="700">Independent safety controller</text>
+    <text x="78" y="553" fill="#e7a17d" font-size="18">Watchdog · stop · hardware limits</text>
+    <path d="M507 532H1124V376" fill="none" stroke="#e7a17d" stroke-width="2.5" marker-end="url(#stop)"/>
+    <text x="744" y="562" fill="#e7a17d" font-size="18">Override / stop</text>
+    <text x="56" y="618" fill="#a9b9a4" font-size="18">The model proposes. A separate control boundary authorizes.</text>
+  </g>
+</svg>

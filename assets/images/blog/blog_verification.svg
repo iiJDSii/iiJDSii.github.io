@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-labelledby="title desc">
+  <title id="title">Useful work survives verification</title>
+  <desc id="desc">A productivity workflow moves from a proposed draft to checks, human review, and release. Evidence and provenance feed the checks. Failed checks return work to the draft stage. A separate permissions gate controls release, distinguishing generated output from an authorized external effect.</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#a9b9a4"/></marker><marker id="revision" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 8 4 0 8Z" fill="#e7a17d"/></marker></defs>
+  <rect width="1200" height="650" rx="20" fill="#182c29"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="56" y="51" fill="#a9b9a4" font-size="14" letter-spacing="3">AI PRODUCTIVITY / VERIFIABLE WORK</text>
+    <text x="56" y="107" fill="#f7f5f0" font-size="44" font-weight="700">Useful work survives verification</text>
+    <text x="56" y="145" fill="#a9b9a4" font-size="21">Optimize for trustworthy completion, not just faster generation.</text>
+    <g fill="#a9b9a4" font-size="13" letter-spacing="1.6">
+      <text x="56" y="219">PROPOSED OUTPUT</text><text x="908" y="219">APPROVED EFFECT</text>
+    </g>
+    <g fill="#213a34" stroke="#587266" stroke-width="1.5">
+      <rect x="56" y="240" width="228" height="144" rx="12"/>
+      <rect x="340" y="240" width="228" height="144" rx="12" fill="#30463c" stroke="#a9b9a4"/>
+      <rect x="624" y="240" width="228" height="144" rx="12"/>
+      <rect x="908" y="240" width="236" height="144" rx="12"/>
+    </g>
+    <g fill="#f7f5f0" font-size="26" font-weight="700">
+      <text x="78" y="285">Draft</text><text x="362" y="285">Check</text><text x="646" y="285">Review</text><text x="930" y="285">Release</text>
+    </g>
+    <g fill="#c8d2c3" font-size="18">
+      <text x="78" y="323">Generate a candidate</text><text x="78" y="351">State assumptions</text>
+      <text x="362" y="323">Tests + assertions</text><text x="362" y="351">Require evidence</text>
+      <text x="646" y="323">Human judgment</text><text x="646" y="351">Resolve ambiguity</text>
+      <text x="930" y="323">Apply approved work</text><text x="930" y="351">Record the outcome</text>
+    </g>
+    <g fill="none" stroke="#a9b9a4" stroke-width="2.5" marker-end="url(#arrow)">
+      <path d="M288 312H331"/><path d="M572 312H615"/><path d="M856 312H899"/>
+      <path d="M441 519H480V391"/>
+    </g>
+    <path d="M394 385V422H170V391" fill="none" stroke="#e7a17d" stroke-width="2.5" stroke-dasharray="7 6" marker-end="url(#revision)"/>
+    <text x="179" y="450" fill="#e7a17d" font-size="17">Failed checks → revise</text>
+    <rect x="56" y="478" width="385" height="92" rx="12" fill="#213a34" stroke="#587266" stroke-width="1.5"/>
+    <text x="78" y="515" fill="#f7f5f0" font-size="23" font-weight="700">Evidence + provenance</text>
+    <text x="78" y="545" fill="#a9b9a4" font-size="18">Sources · tests · observed state</text>
+    <rect x="700" y="478" width="444" height="92" rx="12" fill="#3d3e32" stroke="#e7a17d" stroke-width="1.5"/>
+    <text x="722" y="515" fill="#f7f5f0" font-size="23" font-weight="700">Permissions gate</text>
+    <text x="722" y="545" fill="#e7a17d" font-size="18">Approved scope · least privilege</text>
+    <path d="M1044 478V391" fill="none" stroke="#e7a17d" stroke-width="2.5" marker-end="url(#revision)"/>
+    <text x="56" y="618" fill="#a9b9a4" font-size="18">Generation creates a candidate. Verification makes it useful.</text>
+  </g>
+</svg>
