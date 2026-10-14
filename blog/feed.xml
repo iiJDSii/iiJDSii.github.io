@@ -3,7 +3,7 @@
   <channel>
     <title>Schuback.Tech Blog</title>
     <link>https://www.schuback.tech/blog/</link>
-    <description>Robotics, embodied AI, practical AI safety, and useful AI workflows by James Schuback.</description>
+    <description>Essays by James Schuback on robotics, embodied AI, AI safety, and building AI systems for economic productivity.</description>
     <language>en-us</language>
     <lastBuildDate>Wed, 14 Oct 2026 12:00:00 +0000</lastBuildDate>
     <item>
@@ -26,6 +26,13 @@
       <guid>https://www.schuback.tech/blog/ai-productivity-needs-a-verification-loop/</guid>
       <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
       <description>A source-backed look at AI productivity, with a worked engineering research workflow and a concrete way to account for verification, rework, and controlled release.</description>
+    </item>
+    <item>
+      <title>Adversarial Robustness &amp; AI Control</title>
+      <link>https://www.schuback.tech/blog/adversarial-robustness-and-ai-control/</link>
+      <guid>https://www.schuback.tech/blog/adversarial-robustness-and-ai-control/</guid>
+      <pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate>
+      <description>Robustness, cybersecurity, loss of control, and human misuse are different problems. A broader look at how to bound autonomous agents and preserve meaningful human authority.</description>
     </item>
   </channel>
 </rss>
